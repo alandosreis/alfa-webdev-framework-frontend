@@ -130,3 +130,7 @@ iframe {
 main.container.margem {
   margin-bottom: 30px;
 }
+
+.thumbnail p{
+    height: auto;
+}
