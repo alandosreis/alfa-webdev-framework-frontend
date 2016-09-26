@@ -1,0 +1,132 @@
+@import 'https://fonts.google.com/css?family=Montserrat|Roboto';
+.logo {
+  float: left;
+  text-decoration: none;
+  font: 2.5em Montserrat, Tahoma, Verdana;
+  color: #ff0000;
+}
+.logo img {
+  width: 30%;
+}
+.info {
+  margin-top: 15px;
+  float: right;
+}
+.info span {
+  color: #ff0000;
+}
+.info a {
+  color: #cccccc;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.info a:hover {
+  color: #333333;
+}
+footer {
+  background: #333333;
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+}
+footer img {
+  width: 10%;
+}
+.navbar {
+  border-radius: 0;
+  margin-top: 10px;
+  background: #fff;
+}
+.navbar .container-fluid ul li {
+  padding: 10px 5px;
+  border-left: 1px solid #cccccc;
+}
+.navbar .container-fluid ul li a {
+  font-family: 1.1em Montserrat, Tahoma, Verdana;
+}
+.navbar .container-fluid li:last-child {
+  border-right: 1px solid #cccccc;
+}
+.navbar .container-fluid li a:hover {
+  background: #333333;
+  color: #cccccc;
+}
+.navbar .container-fluid li:hover {
+  background: #333333;
+}
+#banner {
+  float: left;
+  margin-bottom: 20px;
+}
+#banner .carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  font: 1.8em Montserrat, Tahoma, Verdana;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+#banner .carousel-caption span {
+  font-size: 2.5em;
+}
+.help-block {
+  color: #ff0000;
+  font-weight: bold;
+}
+.thumbnail {
+  width: 22%;
+  margin: 12px;
+}
+.thumbnail h2 {
+  height: 50px ;
+}
+.thumbnail p {
+  height: 80px ;
+}
+@media (max-width: 481px) {
+  header .logo,
+  header .info {
+    width: 100%;
+    text-align: center;
+  }
+  header info {
+    font-size: 1.5em;
+  }
+  footer span {
+    width: 100%;
+    text-align: center;
+  }
+}
+.col-md-3.col-sm-6 img {
+  width: 100%;
+}
+.col-md-3 {
+  margin-bottom: 20px;
+}
+h1,
+h2,
+h3 {
+  font-family: Montserrat, Tahoma, Verdana;
+  color: #ff0000;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.5em;
+}
+.erro {
+  font: 1.5em Roboto, Arial;
+  text-align: center;
+  width: 400px;
+}
+.col-md-6 img {
+  width: 100%;
+}
+iframe {
+  width: 100%!important;
+}
+main.container.margem {
+  margin-bottom: 30px;
+}

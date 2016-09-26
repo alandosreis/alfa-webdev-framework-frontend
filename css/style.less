@@ -1,0 +1,160 @@
+@import 'https://fonts.google.com/css?family=Montserrat|Roboto';
+
+@mont:Montserrat, Tahoma, Verdana;
+@robo: Roboto,Arial;
+
+@claro:#ccc;
+@escuro: #333;
+@vermelho: #f00;
+
+@tam1:2.5em;
+@tam2:1.8em;
+@tam3:1.5em;
+@tam4:1.1em;
+
+.logo{
+    float:left;
+    text-decoration:none;
+
+
+    font: @tam1 @mont;
+    color: @vermelho;
+    img {
+        width: 30%;
+    }
+}
+.logo:hover{
+
+}
+.info{
+    margin-top:15px;
+    float:right;
+    span{
+        color:@vermelho;
+    }
+    a{
+        color: @claro;
+        text-decoration:none;
+        margin-left:15px;
+    }
+    a:hover{
+        color:@escuro
+    }
+}
+footer{
+    background: @escuro;
+    width:100%;
+    padding: 10px 0;
+    color:#fff;
+    img{
+        width:10%;
+    }
+}
+.navbar{
+    border-radius:0;
+    margin-top:10px;
+    background:#fff;
+    .container-fluid{
+        ul li{
+            padding: 10px 5px;
+            border-left:1px solid @claro;
+
+            a{
+                font-family:@tam4 @mont;
+            }
+        }
+        li:last-child{
+            border-right:1px solid @claro;
+        }
+        li a:hover{
+            background: @escuro;
+            color:@claro;
+        }
+        li:hover{
+            background: @escuro;
+        }
+    }
+}
+#banner{ 
+    float: left;
+margin-bottom: 20px;
+    .carousel-caption{ 
+        background: rgba(0,0,0,0.4);
+        font: @tam2 @mont;
+        color:#fff;
+        text-shadow: 2px 2px 5px #000;
+        span{
+            font-size: @tam1;
+        }
+    }
+}
+.help-block{
+    color:@vermelho;
+    font-weight: bold;
+}
+.thumbnail{
+    width: 22%;
+    margin: 12px;
+    h2{
+        height:50px ;
+    }
+    p{
+        height:80px ;
+
+    }
+
+}
+
+    @media (max-width:481px){
+        header{
+            .logo, .info{
+                width:100%;
+                text-align:center;
+            }
+
+            info{
+                font-size:@tam3;
+            }
+        }
+        footer{
+            span{
+                width:100%;
+                text-align:center;
+            }
+        }
+    }
+    .col-md-3.col-sm-6 img{
+        width: 100%;
+    }
+    .col-md-3{
+        margin-bottom: 20px;
+    }
+    h1,h2,h3{
+        font-family: @mont;
+        color: @vermelho;
+    }
+    h1{
+        font-size: @tam1;
+    }
+    h2{
+        font-size: @tam2;
+    }
+    h3{
+        font-size: @tam3;
+    }
+    .erro{
+        font: @tam3 @robo;
+        text-align: center;
+        width: 400px;
+
+    }
+.col-md-6 img{
+    width: 100%;
+
+}
+iframe{
+    width: 100%!important;
+}
+main.container.margem {
+    margin-bottom: 30px;
+}
